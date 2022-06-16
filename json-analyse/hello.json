@@ -1,0 +1,24 @@
+{
+    "bind_cpu_flag": true,
+    "bind_cpu_corelist": [
+        "2",
+        "3",
+        "4"
+    ],
+    "lua_script": "/etc/qt_ndr_engine/config/lua_script",
+    "kafka_producer_xml": "/etc/qt_ndr_engine/config/kafka_producer.xml",
+    "kafka_consumer_xml": "/etc/qt_ndr_engine/config/kafka_consumer.xml",
+    "ipv4_public.txt": "/etc/qt_ndr_engine/config/ipv4_public.txt",
+    "host_file": "/etc/qt_ndr_engine/config/top100w.txt",
+    "top_domain": "/etc/qt_ndr_engine/config/top_domain.txt",
+    "bf_stat": {
+        "basic": [
+            "BF001",
+            "BF002"
+        ],
+        "web": [
+            "BF001",
+            "BF002"
+        ]
+    }
+}
